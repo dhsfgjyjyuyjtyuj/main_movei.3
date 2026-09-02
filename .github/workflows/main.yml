@@ -3,7 +3,7 @@ name: Auto Instagram Reel Bot
 on:
   schedule:
     # हर 30 मिनट में यह बॉट अपने आप बैकग्राउंड में चलेगा
-    - cron: '*/30 * * * *'
+    - cron: '*/59 * * * *'
   workflow_dispatch: # इससे आप GitHub वेबसाइट पर मैन्युअली बटन दबाकर भी चला सकते हैं
 
 jobs:
