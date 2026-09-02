@@ -61,7 +61,7 @@ try:
     video_clip = video_clip.resize((w, h))
 
     # 🌟 एडिटिंग: वीडियो के ऊपर "पैसे कमाने का पार्ट X" लिखना
-    text_str = f"PAISA KAMANE KA TARIKA - PART {part_num}"
+    text_str = f"MUSCLE BUILDING - PART {part_num}"
     
     # ऊपरी हिस्से में ब्लैक बार के साथ टेक्स्ट ओवरले सेट करना
     txt_clip = TextClip(text_str, fontsize=32, color='yellow', font='Arial-Bold', bg_color='black')
